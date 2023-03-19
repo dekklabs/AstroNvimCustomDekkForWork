@@ -13,7 +13,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     history = 100, -- Number of commands to remember in a history table
     ignorecase = true, -- Case insensitive searching
     laststatus = 3, -- globalstatus
-    mouse = "a", -- Enable mouse support
+    mouse = "", -- Enable mouse support
     number = true, -- Show numberline
     preserveindent = true, -- Preserve indent structure as much as possible
     pumheight = 10, -- Height of the pop up menu
@@ -56,7 +56,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     loaded_zipPlugin = true, -- disable zip
     loaded_vimball = true, -- disable vimball
     loaded_vimballPlugin = true, -- disable vimball
-    autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
+    autoformat_enabled = false, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
     lsp_handlers_enabled = true, -- enable or disable default vim.lsp.handlers (hover and signatureHelp)
     cmp_enabled = true, -- enable completion at start
     autopairs_enabled = true, -- enable autopairs at start
